@@ -1,0 +1,64 @@
+{"intents": [
+	{"tag": "greeting",
+		"patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hi"],
+		"responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?","Hello human, how may I help you today?"],
+		"context": [""]
+	},
+	{"tag": "goodbye",
+		"patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","Ok, Bye"],
+		"responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+		"context": [""]
+	},
+	{"tag": "thanks",
+		"patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+		"responses": ["Happy to help!", "Any time!", "My pleasure"],
+		"context": [""]
+	},
+	{"tag": "noanswer",
+		"patterns": [],
+		"responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+		"context": [""]
+	},
+	{"tag": "siesgst",
+		"patterns": ["what is siesgst", "siesgst", "sies"],
+		"responses": ["SIES College of Engineering is a South Indian Education Society campus located in Nerul, a node of Navi Mumbai. SIESGST was established in 2002 with the primary objective of providing quality technical education."],
+		"context": [""]
+	},
+	{"tag": "options",
+		"patterns": ["How you could help me?", "I need your help","What you can do?","What do you do?", ",What help you provide?", "How you can be helpful?", "What support is offered"],
+		"responses": ["I can guide you through basic information about the stock market", "I can help you answer the FAQs asked about the financial markets","I can help you be more aware about the markets."],
+		"context": [""]
+	},
+	{"tag": "equity",
+		"patterns": ["What are stocks", "What is equity"],
+		"responses": ["Equity by definition means ownership of assets after the debt is paid off. Stock generally refers to traded equity."],
+		"context": [""]
+	},
+	{"tag": "call options",
+		"patterns": ["What are calls", "What is call option"],
+		"responses": ["A call option, often simply labeled a call, is a contract, between the buyer and the seller of the call option, to exchange a security at a set price."],
+		"context": [""]
+	},
+	{"tag": "put options",
+		"patterns": ["What are puts", "What is put option"],
+		"responses": ["A put is an options contract that gives the owner the right, but not the obligation, to sell a certain amount of the underlying asset, at a set price within a specific time. The buyer of a put option believes that the underlying stock will drop below the exercise price before the expiration date."],
+		"context": [""]
+	},
+	{"tag": "derivatives",
+		"patterns": ["What are derivatives", "What is derivatives"],
+		"responses": ["Derivatives are securities that derive their value from an underlying asset or benchmark. Common derivatives include futures contracts, forwards, options, and swaps. Most derivatives are not traded on exchanges and are used by institutions to hedge risk or speculate on price changes in the underlying asset."],
+		"context": [""]
+	},
+	{"tag": "futures",
+		"patterns": ["What are futures", "What is futures"],
+		"responses": ["Futures are derivative financial contracts that obligate the parties to transact an asset at a predetermined future date and price. Here, the buyer must purchase or the seller must sell the underlying asset at the set price, regardless of the current market price at the expiration date."],
+		"context": [""]
+	},
+	{"tag": "What is the stock market",
+		"patterns": ["What is stock market", "What is stock"],
+		"responses": ["A stock market, equity market or share market is the aggregation of buyers and sellers of stocks (also called shares), which represent ownership claims on businesses; these may include securities listed on a public stock exchange, as well as stock that is only traded privately, such as shares of private companies which are sold to investors through equity crowdfunding platforms. Investment in the stock market is most often done via stockbrokerages and electronic trading platforms. Investment is usually made with an investment strategy in mind."],
+		"context_set": [""]
+	}
+
+]
+}
